@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.top{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.left .grid1{
+    background-color: red;
+}
+.grided{
+    background-color: orange;
+    height: calc(100%/3);
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.bottom .left{
+    background-color: yellow;
+}
+.bottom .right{
+    background-color: blue;
+}
+
+p{
+    border: solid 3pt;
+    text-align: center;
+    font: 40px bolder;
+}
